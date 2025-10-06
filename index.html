@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
+        darkMode: 'class', // Enable class-based dark mode
         theme: {
           extend: {
             colors: {
@@ -30,8 +31,10 @@
               warmGray: {
                 100: '#F5F5F4',
                 300: '#D6D3D1',
+                400: '#A8A29E', // Added for dark mode text
                 500: '#78716C',
                 700: '#44403C',
+                800: '#292524', // Added for dark mode cards
                 900: '#1C1917',
               },
               gold: '#FCD34D',
@@ -51,7 +54,8 @@
     "react": "https://aistudiocdn.com/react@^19.2.0",
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.22.0",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "recharts": "https://aistudiocdn.com/recharts@^3.2.1"
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "html5-qrcode": "https://aistudiocdn.com/html5-qrcode@^2.3.8"
   }
 }
 </script>
