@@ -1,0 +1,7 @@
+{
+  "name": "Gujarat Temple Crowd Management",
+  "description": "A sophisticated web application for managing crowd density across Gujarat's major pilgrimage sites, featuring real-time monitoring, predictive analytics, and an AI-powered visitor assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

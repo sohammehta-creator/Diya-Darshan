@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gujarat Temple Crowd Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              amber: {
+                DEFAULT: '#F59E0B',
+                light: '#FBBF24',
+                dark: '#B45309',
+              },
+              orange: {
+                DEFAULT: '#F97316',
+                light: '#FB923C',
+                dark: '#EA580C',
+              },
+              saffron: '#FF9933',
+              cream: '#FFFBEB',
+              warmGray: {
+                100: '#F5F5F4',
+                300: '#D6D3D1',
+                500: '#78716C',
+                700: '#44403C',
+                900: '#1C1917',
+              },
+              gold: '#FCD34D',
+            },
+            fontFamily: {
+              sans: ['Urbanist', 'sans-serif'],
+              serif: ['Tiro Devanagari Sanskrit', 'serif'],
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.22.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
